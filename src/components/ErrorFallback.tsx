@@ -35,7 +35,7 @@ const ErrorFallback = ({
                 Something went wrong
             </p>
             <p style={{ fontSize: 13, color: '#71717a' }}>
-                Wayne E Solutions · Please try again
+                 Please try again
             </p>
         </div>
         <button

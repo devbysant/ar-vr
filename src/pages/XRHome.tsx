@@ -105,7 +105,7 @@ const XrHome = () => {
             {/* ── Header ── */}
             <header className="viewer-header">
                 <div className="header-left">
-                    <img src="/logo.png" alt="Logo" className="header-logo-img" />
+                    {/* <img src="/logo.png" alt="Logo" className="header-logo-img" /> */}
                     <div className="header-divider-v" />
                     <div className="header-breadcrumb">
                         <span className="header-bc-dim">{p.category}</span>
@@ -278,7 +278,7 @@ const XrHome = () => {
                         <div style={{ flex: 1 }} />
 
                         <div className="ecom-footer">
-                            <span className="ecom-footer-brand">Wayne E Solutions</span>
+                       
                             <span className="ecom-footer-sub">3D Asset Viewer</span>
                         </div>
                     </div>

@@ -86,11 +86,12 @@ const XrProduct = () => {
         return () => mv.removeEventListener('load', normaliseScale);
     }, [modelSrc]);
 
+
     return (
         <div className="xr-root">
             <header className="xr-header">
                 <div className="xr-header-inner">
-                    <img src="/logo.png" alt="Wayne E Solutions" className="xr-header-logo-img" />
+                   
                     <span className="xr-header-title">{productName}</span>
                     <span className="xr-header-badge">AR</span>
                 </div>
